@@ -1,0 +1,352 @@
+body {
+    background-color: rgb(11, 184, 155)
+}
+.heading{
+    margin-top: -0.6%;
+    color: rgb(255, 255, 255);
+    font-size: 1.6cm;
+    border:rgb(37, 253, 181) solid 3px ;
+    background-color: rgb(2, 161, 100) ;
+    padding-left: 34px;
+    position: relative;
+    top: 50px;
+    width:100%;
+}
+
+.uuu{
+    color: rgb(5, 139, 83);
+    background-color: aliceblue;
+    position: relative;
+    top: 26px;
+    width: 100%
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .profi {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: -9px;
+    top: -12px;
+  }
+
+  
+
+  .sidebar {
+    width: 250px;
+    height: 680px;
+    background-color: #333;
+    color: #fff;
+    overflow: auto;
+    padding: 20px;
+    position: relative;
+    top: 67px;
+
+  }
+  
+  .menu li {
+    list-style-type: none;
+    margin-bottom: 10px;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .content {
+    margin-left: 250px;
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+      position: relative;
+      padding-bottom: 50px;
+      height: auto;
+    }
+  
+    .content {
+      margin-left: 0;
+    }
+  }
+  /* CSS for YouTube button */
+.youtube-button {
+  display: inline-block;
+  background-color: red; /* Customize the button background color */
+  color: white; /* Customize the button text color */
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 25px;
+  position: relative;
+  top: -313px;
+  left: -246px;
+
+}
+
+/* CSS for Instagram button */
+.instagram-button {
+  display: inline-block;
+  background-color: purple; /* Customize the button background color */
+  color: white; /* Customize the button text color */
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 12px;
+  position: relative;
+  top: -265px;
+  left: -351px;
+}
+
+/* Responsive CSS */
+@media only screen and (max-width: 600px) {
+  .youtube-button,
+  .instagram-button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+.insta-button {
+  display: inline-block;
+  background-color: #f0109a; /* Grey shade */
+  color: white; /* Button text color */
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: px;
+  position: relative;
+  top: -214px;
+  left: -458px;
+}
+
+.instagram-button:hover {
+  background-color: #999999; /* Darker grey shade on hover */
+}
+
+
+
+.centred{
+  background: url(https://img.freepik.com/free-vector/gradient-galaxy-background_23-2148983655.jpg?t=st=1683894500~exp=1683895100~hmac=1068590d5ec6f19779e81313ea5d8c9fcc16157c2f5546bf62bd0cf0ee95cdc4);
+  background-size: cover;
+  background-position: centre;
+  width: 938px;
+  height: 395px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 649px;
+  left: 4px;
+  background-size: cover;
+  background-position: centre;
+  border-radius: 50px
+}
+.innercent{
+  backdrop-filter: blur(10px);
+  border-radius: 100px;
+  box-shadow: 0 13px 12px rgba(3,3,3, 5.0);
+  border: rgb(255, 255, 255) 0.1px solid;
+  width: 260px;
+  height: 377px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 32px;
+  left: -266px;
+  background-size: cover;
+  border-radius: 81px;
+}
+.drivetext{
+  color: aliceblue;
+  rotate: 270deg;
+  position: relative;
+  bottom: 217px;
+  left: -433px;
+
+
+}
+
+.inner2cent{
+  backdrop-filter: blur(10px);
+  border-radius: 100px;
+  box-shadow: 0 13px 12px rgba(3,3,3, 5.0);
+  border: rgb(255, 255, 255) 0.1px solid;
+  width: 555px;
+  height: 295px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 352px;
+  left: 178px;
+  background-size: cover;
+  border-radius: 133px;
+
+}
+.linkstex{
+  color: aliceblue;
+  position: relative;
+  bottom: 50px;
+  left: 206px;
+
+}
+
+.drive-button {
+  display: inline-block;
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.774);
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  top: 42px;
+  left: 60px;;
+}
+
+.drive-icon {
+  width: 30px;
+  height: 17px;
+  margin-right: 5px;
+}
+
+.drive-text {
+  vertical-align: middle;
+}
+.drive-buttons{
+  display: inline-block;
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.774);
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  top: 54px;
+  left: 45px;
+
+}
+.drive-buttos{
+  display: inline-block;
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.774);
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  top: 66px;
+  left: 35px;
+
+}
+.drive-buts{
+  display: inline-block;
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.774);
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  top: 78px;
+  left: 28px;
+
+}
+
+
+.drive-ts{
+  display: inline-block;
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.774);
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  top: 92px;
+  left: 17px;
+
+}
+.drive-h{
+  display: inline-block;
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.774);
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  top: 106px;
+  left: 51px;
+
+}
+.leo{
+  color: aliceblue;
+  position: relative;
+  bottom: 65px;
+  left: 137px;
+
+}
+.divposi{
+  position: relative;
+  bottom: 14px;
+  left: -1px;
+}
+.driver{
+  display: inline-block;
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.774);
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  top: 20px;
+  left: 51px;
+
+}
+.drver{
+  display: inline-block;
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.774);
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  top: 20px;
+  left: 51px;
+  
+}
+.dr{
+  display: inline-block;
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.774);
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  top: 20px;
+  left: 51px;
+
+}
+.der{
+  display: inline-block;
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.774);
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  top: 20px;
+  left: 51px;
+
+}
+.liv{
+  position: relative;
+  bottom: -47px;
+  left: 13px;
+}
